@@ -21,10 +21,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     staticClass: "col-sm-3"
   }, [_vm._v("39")]), _vm._v(" "), _c('div', {
     staticClass: "col-sm-9"
-  }, [_c('vcArticleBox102')], 1)]), _vm._v(" "), _vm._m(0)])
-}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
+  }, [_c('vcArticleBox102')], 1)]), _vm._v(" "), _c('div', {
     staticClass: "row"
   }, [_c('h2', {
     staticClass: "item-id"
@@ -32,8 +29,9 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "col-sm-3"
   }, [_vm._v("39")]), _vm._v(" "), _c('div', {
     staticClass: "col-sm-9"
-  })])
-}]
+  }, [_c('vcArticleBox103')], 1)])])
+}
+var staticRenderFns = []
 render._withStripped = true
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -134,10 +132,13 @@ if (false) {(function () {
 //
 
 var vcArticleBox101 = function vcArticleBox101() {
-  return __webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 9));
+  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, 9));
 };
 var vcArticleBox102 = function vcArticleBox102() {
-  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 14));
+  return __webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, 14));
+};
+var vcArticleBox103 = function vcArticleBox103() {
+  return __webpack_require__.e/* import() */(3/* empty */).then(__webpack_require__.bind(null, 17));
 };
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -146,7 +147,8 @@ var vcArticleBox102 = function vcArticleBox102() {
 
   components: {
     vcArticleBox101: vcArticleBox101,
-    vcArticleBox102: vcArticleBox102
+    vcArticleBox102: vcArticleBox102,
+    vcArticleBox103: vcArticleBox103
   },
   mounted: function mounted() {
     // console.log("Home.vue mounted");
