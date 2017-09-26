@@ -13,6 +13,8 @@
 @import "vendor/mq"; 
 @import "layout/grid";
 
+@import "vcArticleBox101";
+
 // show the active breakpoint (_mq.scss)
 // ==================================================/
 @include mq-show-breakpoints;
@@ -20,3 +22,11 @@
 // show col-* grid borders (_grid.scss)
 // ==================================================/
 @include col-grid-border(#000);
+
+body {
+  @extend %system_normal--300;
+}
+
+.item-id {
+  background-color: #ccc;
+}
