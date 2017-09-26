@@ -5,7 +5,7 @@ webpackJsonp([0],{
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
+  return _c('div', [_c('div', {
     staticClass: "row"
   }, [_c('h2', {
     staticClass: "item-id"
@@ -13,9 +13,27 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     staticClass: "col-sm-3"
   }, [_vm._v("39")]), _vm._v(" "), _c('div', {
     staticClass: "col-sm-9"
-  }, [_c('vcArticleBox101')], 1)])
+  }, [_c('vcArticleBox101')], 1)]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('h2', {
+    staticClass: "item-id"
+  }, [_vm._v("vcArticleBox102")]), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-3"
+  }, [_vm._v("39")]), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-9"
+  }, [_c('vcArticleBox102')], 1)]), _vm._v(" "), _vm._m(0)])
 }
-var staticRenderFns = []
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "row"
+  }, [_c('h2', {
+    staticClass: "item-id"
+  }, [_vm._v("vcArticleBox103")]), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-3"
+  }, [_vm._v("39")]), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-9"
+  })])
+}]
 render._withStripped = true
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -94,9 +112,32 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 var vcArticleBox101 = function vcArticleBox101() {
-  return __webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, 9));
+  return __webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 9));
+};
+var vcArticleBox102 = function vcArticleBox102() {
+  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 14));
 };
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -104,7 +145,8 @@ var vcArticleBox101 = function vcArticleBox101() {
   },
 
   components: {
-    vcArticleBox101: vcArticleBox101
+    vcArticleBox101: vcArticleBox101,
+    vcArticleBox102: vcArticleBox102
   },
   mounted: function mounted() {
     // console.log("Home.vue mounted");

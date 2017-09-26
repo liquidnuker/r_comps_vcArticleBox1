@@ -48,7 +48,7 @@ export default {
   components: {
   },
   mounted: function () {
-    console.log("vcvcArticleBox101.vue mounted");
+    
   },
   methods: {        
   }
