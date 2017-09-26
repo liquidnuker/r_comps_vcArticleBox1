@@ -27,6 +27,15 @@
     </div>
   </div>
   <!-- end vcArticleBox103 -->
+  <!-- vcArticleBox104 -->
+  <div class="row">
+    <h2 class="item-id">vcArticleBox104</h2>
+    <div class="col-sm-3">39</div>
+    <div class="col-sm-9">
+      <vcArticleBox104 />
+    </div>
+  </div>
+  <!-- end vcArticleBox104 -->
 </div>
 </template>
 <script>
@@ -36,6 +45,8 @@
     import ('./vcArticleBox102.vue');
     const vcArticleBox103 = () =>
     import ('./vcArticleBox103.vue');
+    const vcArticleBox104 = () =>
+    import ('./vcArticleBox104.vue');
   export default {
     data() {
         return {}
@@ -43,7 +54,8 @@
       components: {
         vcArticleBox101: vcArticleBox101,
         vcArticleBox102: vcArticleBox102,
-        vcArticleBox103: vcArticleBox103
+        vcArticleBox103: vcArticleBox103,
+        vcArticleBox104: vcArticleBox104
       },
       mounted: function () {
         // console.log("Home.vue mounted");

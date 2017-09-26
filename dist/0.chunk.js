@@ -29,7 +29,15 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     staticClass: "col-sm-3"
   }, [_vm._v("39")]), _vm._v(" "), _c('div', {
     staticClass: "col-sm-9"
-  }, [_c('vcArticleBox103')], 1)])])
+  }, [_c('vcArticleBox103')], 1)]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('h2', {
+    staticClass: "item-id"
+  }, [_vm._v("vcArticleBox104")]), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-3"
+  }, [_vm._v("39")]), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-9"
+  }, [_c('vcArticleBox104')], 1)])])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -130,15 +138,27 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 var vcArticleBox101 = function vcArticleBox101() {
-  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, 9));
+  return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, 9));
 };
 var vcArticleBox102 = function vcArticleBox102() {
-  return __webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, 14));
+  return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, 14));
 };
 var vcArticleBox103 = function vcArticleBox103() {
-  return __webpack_require__.e/* import() */(3/* empty */).then(__webpack_require__.bind(null, 17));
+  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 17));
+};
+var vcArticleBox104 = function vcArticleBox104() {
+  return __webpack_require__.e/* import() */(1/* empty */).then(__webpack_require__.bind(null, 20));
 };
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -148,7 +168,8 @@ var vcArticleBox103 = function vcArticleBox103() {
   components: {
     vcArticleBox101: vcArticleBox101,
     vcArticleBox102: vcArticleBox102,
-    vcArticleBox103: vcArticleBox103
+    vcArticleBox103: vcArticleBox103,
+    vcArticleBox104: vcArticleBox104
   },
   mounted: function mounted() {
     // console.log("Home.vue mounted");
